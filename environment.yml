@@ -1,0 +1,14 @@
+name: .venv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - lightfm=1.16
+  - numpy=1.20.3
+  - pandas  
+  - scikit-surprise
+  - ipykernel
+  - pip
+  #- pip:
+  #    - package1
