@@ -9,6 +9,10 @@ dependencies:
   - pandas  
   - scikit-surprise
   - ipykernel
+  - matplotlib
+  - scikit-learn
+  - cornac
+  - pytorch
   - pip
   #- pip:
   #    - package1
