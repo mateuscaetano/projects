@@ -1,0 +1,29 @@
+Method and Library Selection:
+
+I wanted to test 3 methods:
+
+ - Traditional collaborative filter using SGD or WALS, with the downside of not having item features
+ - A hybrid method, to include information about the movies
+ - A Deep Learning Method
+ 
+ Also had in mind to evaluate different libraries, with multiple considerations in mind such as ease-of-use, methods available, and production ready grade.
+ 
+ I experimented with the following libraries:
+ 
+ LightFM (https://making.lyst.com/lightfm) for the hybrid method and for been good for medium size production systems, however it's best designed for implicit feedback.
+ Cornac 
+ Surprise (https://surpriselib.com/) for the traditional collaborative filtering, ease of use, this one doesn't look suitable for large scale production systems, and deosn't include item/user features support. 
+  Cornac
+ Pytorch for the Deep Learning
+ 
+ 
+ With more time:
+ 
+ Each models require it's own data format, and provides different evaluation metrics, making it hard to have the exact same train/test splits, and obtain the same metrics for comparison. With more time, I would like to standardize and use the same train/validation/test for all the methods, and obtain all the same comparison metrics for all of then, suchs as RMSE, k-Precison, auc, etc.
+ 
+ I also would like to spend more time doing hyperparameter tuning, which is very important and can dramatically improve the results.
+ 
+ I found that for recommendation, there's not an equivalent of sklearn for tradictional ML, so it was difficult to find the best option. So more time testing different libraries/methods would be a good idea.
+ 
+ 
+ Breakdown in steps: Candidate Generation, Scoring, Re-ranking
