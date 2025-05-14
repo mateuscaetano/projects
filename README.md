@@ -1,19 +1,18 @@
 # Assessment Exercise 
 
-# Environment Instructions 
+This repo contains an analysis of the MovieLens 100k dataset, including code for a Recommender System and Anomaly Detection
 
-## create environment
+The exploratory analysis is in the [a relative link](Exploratory_Analysis.ipynb) file
+The main recommender is in the [a relative link](Cormac.ipynb) file
+The anomaly detection  is in the [a relative link](anomaly_detection.ipynb) file
+
+### Setup
+
+Requires Miniconda or Anaconda
+
+### Conda Environment Commands 
 
 conda env create -f environment.yml
-
-## activate environment
-
 conda activate .venv
-
-## update environment
-
 conda env update -f environment.yml
-
-## delete environment
-
 conda env remove --name myenv
