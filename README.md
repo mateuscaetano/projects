@@ -2,9 +2,9 @@
 
 This repo contains an analysis of the MovieLens 100k dataset, including code for a Recommender System and Anomaly Detection
 
-The exploratory analysis is in the [a relative link](Exploratory_Analysis.ipynb) file
-The main recommender is in the [a relative link](Cormac.ipynb) file
-The anomaly detection  is in the [a relative link](anomaly_detection.ipynb) file
+The exploratory analysis is in the [Exploratory_Analysis.ipynb](Exploratory_Analysis.ipynb) file
+The main recommender is in the [Cormac.ipynb](Cormac.ipynb) file
+The anomaly detection  is in the [anomaly_detection.ipynb](anomaly_detection.ipynb) file
 
 ### Setup
 
