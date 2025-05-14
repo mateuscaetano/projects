@@ -4,7 +4,7 @@ This repo contains an analysis of the MovieLens 100k dataset, including code for
 
 The exploratory analysis is in the [Exploratory_Analysis.ipynb](Exploratory_Analysis.ipynb) file
 
-The main recommender is in the [Cormac.ipynb](Cormac.ipynb) file
+The main recommender is in the [Cornac.ipynb](Cornac.ipynb) file
 
 The anomaly detection  is in the [anomaly_detection.ipynb](anomaly_detection.ipynb) file
 
